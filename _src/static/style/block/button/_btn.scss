@@ -21,4 +21,11 @@
 
     font-size: $fz-third;
   }
+
+  &--light {
+    color: $c-secondary;
+
+    background-color: $c-white;
+    border: 2px solid $c-grey-dark;
+  }
 }

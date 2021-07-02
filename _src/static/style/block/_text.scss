@@ -1,14 +1,17 @@
 .text {
   font-weight: 350;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.7;
   font-family: $ff-main;
-  text-align: center;
   color: $c-secondary;
   font-style: normal;
 
   &--lg {
     font-size: 21px;
     line-height: 1.4;
+  }
+
+  &--center {
+    text-align: center;
   }
 }

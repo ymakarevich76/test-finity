@@ -1,4 +1,41 @@
 .features {
   padding-top: 37px;
+  padding-bottom: 130px;
+
+  border-bottom: 1px solid $c-grey;
 }
 
+.features__title {
+  margin-bottom: 6px;
+}
+
+.features__text {
+  margin-bottom: 80px;
+}
+
+
+.features__wrap-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.features__btn {
+  position: relative;
+
+  padding-left: 45px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    display: block;
+    width: 19px;
+    height: 19px;
+
+    background: url("../img/ui/play.png") center center no-repeat;
+    background-size: 100%;
+    transform: translate(0, -50%);
+  }
+}
