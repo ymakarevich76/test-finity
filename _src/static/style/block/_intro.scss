@@ -1,0 +1,107 @@
+.intro {
+  padding-top: 170px;
+
+  background-color: $c-grey-light;
+}
+
+.intro__title {
+  margin-bottom: 10px;
+}
+
+.intro__text {
+  margin-bottom: 36px;
+}
+
+.intro__wrap-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.intro__sub {
+  font-weight: 350;
+  font-size: $fz-third;
+  line-height: 1.5;
+  font-family: $ff-main;
+  text-align: center;
+  color: $c-secondary;
+  font-style: normal;
+}
+
+.intro__wrap-img {
+  display: flex;
+  justify-content: center;
+  padding-top: 93px;
+  overflow-y: hidden;
+
+  @media (max-width: $lg) {
+    padding-top: 60px;
+  }
+}
+
+.intro__inner-img {
+  position: relative;
+  z-index: 1;
+
+  max-width: 923px;
+  height: 370px;
+  margin: 0 20px;
+
+  box-shadow: 0 0 84px 18px $c-main-opacity;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: -110px;
+
+    display: block;
+    width: 304px;
+    height: 304px;
+
+    background: url("../img/background/rectangle.png") center center no-repeat;
+    background-size: 100%;
+
+    @media (max-width: $md) {
+      top: auto;
+      bottom: 20px;
+
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -90px;
+    right: -100px;
+
+    display: block;
+    width: 282px;
+    height: 282px;
+
+    background: url("../img/background/oval.png") center center no-repeat;
+    background-size: 100%;
+
+    @media (max-width: $lg) {
+      top: -45px;
+      right: -55px;
+
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @media (max-width: $md) {
+    height: auto;
+    padding-bottom: 60px;
+  }
+}
+
+.intro__img {
+  position: relative;
+  z-index: 1;
+
+  border-radius: 10px;
+}

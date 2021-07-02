@@ -1,2 +1,18 @@
-.title {
+.title-1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: $ff-main;
+  color: $c-main;
+  font-style: normal;
+  letter-spacing: -1px;
+
+  &--lg {
+    font-size: 58px;
+    line-height: 1.15;
+  }
+
+  &--center {
+    text-align: center;
+  }
 }

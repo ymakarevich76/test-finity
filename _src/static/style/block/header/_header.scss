@@ -1,2 +1,21 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding-top: 15px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 48px;
+  margin: 0 12px 0 40px;
+}
+
+.header__logo {
+  position: relative;
+  top: 20px;
 }

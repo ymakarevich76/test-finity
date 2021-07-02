@@ -1,13 +1,18 @@
 // //////////////////////////////////////// font-family
-$ff-main: "Roboto", sans-serif;
+$ff-main: "CircularStd", sans-serif;
 
 // //////////////////////////////////////// font-size
-$fz-main: 16px;
+$fz-main: 18px;
+$fz-secondary: 16px;
+$fz-third: 13px;
 
 // //////////////////////////////////////// colors 
-$c-main: #000;
-$c-secondary: gray;
-$c-accent: orange;
+$c-main: #1d293f;
+$c-secondary: #7c8087;
+$c-grey-light: #f7f8fa;
+$c-accent: #0f53fa;
+$c-white: #fff;
+$c-main-opacity: rgba($c-main, .12);
 
 // //////////////////////////////////////// breakpoints
 $sl: 1499.98px;
@@ -19,26 +24,16 @@ $xs: 425.98px;
 $ss: 359.98px;
 
 // //////////////////////////////////////// grid
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px !important;
-}
 
-.col {
-  margin: 0 15px;
-}
-
-$gap: 30px;
-$c-12: calc(100% - #{$gap});
-$c-11: calc(91.666667% - #{$gap});
-$c-10: calc(83.333333% - #{$gap});
-$c-9: calc(75% - #{$gap});
-$c-8: calc(66.666667% - #{$gap});
-$c-7: calc(58.333333% - #{$gap});
-$c-6: calc(50% - #{$gap});
-$c-5: calc(41.666667% - #{$gap});
-$c-4: calc(33.333333% - #{$gap});
-$c-3: calc(25% - #{$gap});
-$c-2: calc(16.666667% - #{$gap});
-$c-1: calc(8.333333% - #{$gap});
+$c-12: 100%;
+$c-11: 91.666667%;
+$c-10: 83.333333%;
+$c-9: 75%;
+$c-8: 66.666667%;
+$c-7: 58.333333%;
+$c-6: 50%;
+$c-5: 41.666667%;
+$c-4: 33.333333%;
+$c-3: 25%;
+$c-2: 16.666667%;
+$c-1: 8.333333%;

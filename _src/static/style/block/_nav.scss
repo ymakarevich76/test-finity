@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.nav__item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__item-link {
+  font-weight: 350;
+  font-size: $fz-secondary;
+  line-height: 1.75;
+  font-family: $ff-main;
+  color: $c-main;
+  font-style: normal;
+}
+
+.nav__btn {
+}

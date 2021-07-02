@@ -1,0 +1,17 @@
+.vendors {
+  padding: 55px 0;
+}
+
+.vendors__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vendors__item {
+  margin: 0 35px 35px;
+}
+
+.vendors__img {
+  opacity: .6;
+}
