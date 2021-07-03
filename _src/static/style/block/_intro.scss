@@ -8,6 +8,14 @@
   margin-bottom: 36px;
 }
 
+.intro__text br {
+  display: block;
+
+  @media (max-width: $xs) {
+    display: none;
+  }
+}
+
 .intro__wrap-btn {
   display: flex;
   justify-content: center;

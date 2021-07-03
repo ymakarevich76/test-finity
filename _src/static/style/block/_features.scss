@@ -13,6 +13,14 @@
   margin-bottom: 80px;
 }
 
+.features__text br {
+  display: block;
+
+  @media (max-width: $sm) {
+    display: none;
+  }
+}
+
 
 .features__wrap-btn {
   display: flex;

@@ -2,7 +2,7 @@
 @@include('block/header/header.html')
 
 <main class="main">
-  <!-- //////////////////////////////////////////////////////////  -->
+  <!-- //////////////////////////////////////////////////// intro-->
   <section class="intro">
     <div class="container">
       <h1 class="intro__title title-1 title-1--center title-1--lg ">More than your<br>regular email inbox</h1>
@@ -26,6 +26,7 @@
     </div>
   </section>
 
+  <!-- ///////////////////////////////////////////////// vendors -->
   <section class="vendors">
     <div class="vendors__container container">
       <h2 class="visually-hidden">Vendors</h2>
@@ -50,6 +51,7 @@
     </div>
   </section>
 
+  <!-- ///////////////////////////////////////////////// features -->
   <section class="features">
     <div class="container">
       <h2 class="features__title title-1 title-1--center">Solution made for you</h2>
@@ -58,18 +60,18 @@
         systems with minor changes, and yet always.</p>
     </div>
     <div class="features__wrap-btn">
-      <button class="features__btn btn">See Finity in Action</button>
+      <a hfer="#" class="features__btn btn">See Finity in Action</a>
     </div>
   </section>
 
-  <!-- ///////////////////////////////////////////////// box -->
+  <!-- ///////////////////////////////////////////////// content -->
   <section class="content content--first">
-    <div class="container">
-      <div class="content__top-desc">
-        <h2 class="content__title title-1">Get all your emails<br>in a single place</h2>
-        <p class="content__top-text text">
-          These companies release their own versions of the<br>
-          operating systems with minor changes, and yet<br> always with the same bottom line.
+    <div class="content__container container">
+      <div class="content__desc">
+        <h2 class="content__title title-1">Get all your emails in a single place</h2>
+        <p class="content__text text">
+          These companies release their own versions of the
+          operating systems with minor changes, and yet always with the same bottom line.
         </p>
         <ul class="content__list list-reset">
           <li class="content__item">Connect with new people</li>
@@ -79,38 +81,40 @@
           </li>
         </ul>
       </div>
-      <!--/content__top-desc-->
-      <!--/content__top-->
+      <!--/content__desc-->
+
+      <div class="content__wrap-img content__wrap-img--right">
+        <img class="content__img-1" src="static/img/ui/content-right-img.png" alt="Chat on blue oval">
+      </div>
     </div>
     <!--/container-->
   </section>
 
-  <section>
-    <div class="container">
-      <!-- <div class="content__bottom">
-        <div class="content__wrap-img">
-          <img class="content__bottom-img" src="static/img/ui/content-left-img.png" alt="Chat on blue oval">
-        </div>
-        <div class="content__bottom-desc">
-          <h2 class="content__title title-1">Work anywhere,<br>with any device</h2>
-          <p class="content__bottom-text text">
-            These companies release their own versions of<br>
-            the operating systems with minor changes, and<br> yet always with the same bottom line.
-          </p>
-          <div class="content__wrap-btn">
-            <button class="content__btn btn">
-              Download on the<br>
-              <span class="content__btn-text">App Store</span>
-            </button>
+  <section class="content content--second">
+    <div class="content__container container">
+      <div class="content__wrap-img content__wrap-img--left">
+        <img class="content__img-2" src="static/img/ui/content-left-img.png" alt="Chat on blue oval">
+      </div>
 
-            <button class="content__btn btn btn--light">
-              Get it on<br>
-              <span class="content__btn-text content__btn-text--dark">Google Play</span>
-            </button>
-          </div>
-        </div>
+      <div class="content__desc">
+        <h2 class="content__title title-1">Work anywhere, with any device</h2>
+        <p class="content__text text">
+          These companies release their own versions of
+          the operating systems with minor changes, and yet always with the same bottom line.
+        </p>
+        <div class="content__wrap-btn">
+          <a href="#" class="content__btn btn">
+            Download on the<br>
+            <span class="content__btn-text">App Store</span>
+          </a>
 
-      </div> -->
+          <a href="#" class="content__btn btn btn--light">
+            Get it on<br>
+            <span class="content__btn-text content__btn-text--dark">Google Play</span>
+          </a>
+        </div>
+      </div>
+      <!--/content__bottom-desc-->
     </div>
   </section>
 </main>

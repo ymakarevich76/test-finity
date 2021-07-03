@@ -1,14 +1,26 @@
 .text {
   font-weight: 350;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.75;
   font-family: $ff-main;
   color: $c-secondary;
   font-style: normal;
 
+  @media (max-width: $md) {
+    font-size: $fz-secondary;
+  }
+
+  // @media (max-width: $xs) {
+  //   font-size: 44px;
+  // }
+
   &--lg {
     font-size: 21px;
     line-height: 1.4;
+
+    @media (max-width: $md) {
+      font-size: $fz-secondary;
+    }
   }
 
   &--center {
