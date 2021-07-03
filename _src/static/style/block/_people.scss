@@ -1,0 +1,94 @@
+.people {
+  position: relative;
+
+  padding-top: 129px;
+  padding-bottom: 165px;
+  overflow: hidden;
+
+  background-color: $c-grey-light;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    right: -195px;
+
+    display: block;
+    width: 542px;
+    height: 542px;
+
+    background: url("../img/ui/circle.png") center center no-repeat;
+    background-size: 100%;
+  }
+}
+
+.people__list {
+  display: flex;
+  flex-wrap: wrap;
+
+//   justify-content: space-between;
+  //   justify-content: center;
+  //   align-items: center;
+  margin: -10px;
+  padding-top: 85px;
+
+  @media (max-width: $xl) {
+    //  justify-content: center;
+  }
+}
+
+.people__item {
+  width: calc((100% / 3) - 30px);
+  margin: 0 15px 34px;
+  padding: 5px 17px;
+
+  background-color: $c-white;
+  border: 1px solid $c-grey;
+  border-radius: 10px;
+  @media (max-width: $xl) {
+    width: calc((100% / 2) - 30px);
+  }
+
+  @media (max-width: $md) {
+    width: 100%;
+    //  width: 500px;
+    //  margin: 0 auto 34px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.people__block {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0;
+
+    display: block;
+    width: 16px;
+    height: 13px;
+
+    background: url("../img/icon/twitter.svg") center center no-repeat;
+    background-size: 100%;
+  }
+}
+
+.people__wrap-img {
+  margin-right: 15px;
+}
+
+.people__text br {
+  display: block;
+
+  @media (max-width: $sm) {
+    display: none;
+  }
+}

@@ -1,2 +1,131 @@
 .footer {
+  position: relative;
+
+  overflow: hidden;
+
+  background-color: $c-main;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -25%;
+    left: -128px;
+
+    display: block;
+    width: 255px;
+    height: 255px;
+
+    background: url("../img/ui/circle.png") center center no-repeat;
+    background-size: 100%;
+
+    @media (max-width: $sl) {
+      width: 195px;
+      height: 195px;
+    }
+  }
+}
+
+.footer__container {
+  display: flex;
+  padding: 125px 0;
+
+  border-bottom: 1px solid $c-main-light;
+
+  @media (max-width: $xl) {
+    justify-content: space-between;
+  }
+}
+
+.footer__question {
+  max-width: 265px;
+  margin-right: 213px;
+
+  @media (max-width: $xl) {
+    margin-right: 25px;
+  }
+}
+
+.footer__logo {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.footer__question-desc {
+  margin-bottom: 30px;
+
+  color: $c-gray;
+}
+
+.footer__btn {
+  min-width: 126px;
+}
+
+.footer__wrap-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__block {
+  margin-right: 68px;
+}
+
+.footer__title {
+  margin-bottom: 15px;
+
+  color: $c-gray;
+}
+
+.footer__list {
+}
+
+.footer__link {
+  display: inline-block;
+
+  line-height: 2.6;
+  color: $c-grey-light;
+}
+
+.footer__contacts {
+  max-width: 265px;
+  padding-left: 13px;
+}
+
+.footer__contacts-wrap {
+}
+
+.footer__contacts-title {
+  margin-bottom: 20px;
+
+  color: $c-gray;
+}
+
+.footer__contacts-text {
+  color: $c-orange-light;
+}
+
+.footer__contacts-desc {
+  margin-bottom: 25px;
+
+  color: $c-grey-light;
+}
+
+.footer__contacts-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contacts-text {
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.footer__copyright-text {
+  margin-bottom: 0;
+
+  color: $c-gray;
 }

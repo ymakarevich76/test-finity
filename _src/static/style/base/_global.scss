@@ -5,9 +5,10 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 
-  font-size: $fz-main;
+  font-weight: 350;
+  font-size: $fz-secondary;
   font-family: $ff-main;
-  color: $c-main;
+  color: $c-secondary;
 }
 
 .main {

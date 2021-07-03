@@ -1,6 +1,6 @@
 .text {
   font-weight: 350;
-  font-size: 18px;
+  font-size: $fz-main;
   line-height: 1.75;
   font-family: $ff-main;
   color: $c-secondary;
@@ -26,4 +26,14 @@
   &--center {
     text-align: center;
   }
+
+  &--sm {
+    font-size: $fz-third;
+    line-height: 1.5;
+  }
+
+  &--mid {
+    font-size: $fz-secondary;
+  }
 }
+
