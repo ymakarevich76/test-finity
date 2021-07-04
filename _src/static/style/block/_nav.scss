@@ -24,6 +24,17 @@
   font-family: $ff-main;
   color: $c-main;
   font-style: normal;
+
+  transition: all .3s;
+
+  &:hover {
+    color: $c-accent;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $c-secondary;
+  }
 }
 
 .nav__btn {

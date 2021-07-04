@@ -72,8 +72,8 @@
 }
 
 .footer__logo {
-  padding-top: 15px;
-  padding-bottom: 5px;
+  padding-top: 13px;
+  padding-bottom: 8px;
 }
 
 .footer__question-desc {
@@ -122,6 +122,17 @@
 
   line-height: 2.6;
   color: $c-grey-light;
+
+  transition: all .3s;
+
+  &:hover {
+    color: $c-accent;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $c-secondary;
+  }
 }
 
 .footer__contacts {
@@ -144,6 +155,17 @@
 
 .footer__contacts-text {
   color: $c-orange-light;
+
+  transition: all .3s;
+
+  &:hover {
+    color: $c-orange;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $c-secondary;
+  }
 }
 
 .footer__contacts-desc {
@@ -163,7 +185,7 @@
 .footer__copyright {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 22px 0 25px;
 }
 
 .footer__copyright-text {

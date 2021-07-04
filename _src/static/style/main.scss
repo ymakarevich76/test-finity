@@ -33,11 +33,12 @@
 @import "block/content";
 @import "block/people";
 @import "block/social";
+@import "block/plan";
 
 
 
 @import "block/footer/footer";
 
 // ///////////////////////////////////////// display
-// @import "base/display";
+@import "base/display";
 

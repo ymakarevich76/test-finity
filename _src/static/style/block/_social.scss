@@ -4,3 +4,30 @@
   align-items: center;
   min-width: 86px;
 }
+
+.social__svg {
+  fill: $c-white;
+
+  &:hover {
+    fill: $c-accent;
+  }
+
+  &:active {
+    fill: $c-secondary;
+  }
+
+  &--tw {
+    width: 18px;
+    height: 16px;
+  }
+
+  &--fb {
+    width: 16px;
+    height: 14px;
+  }
+
+  &--goo {
+    width: 18px;
+    height: 20px;
+  }
+}

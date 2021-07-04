@@ -1,8 +1,8 @@
 .content {
-  overflow-x: hidden;
+  // overflow-x: hidden;
 
   &--first {
-    padding: 235px 0 105px;
+    padding: 260px 0 105px;
 
     @media (max-width: $xl) {
       padding: 100px 0 100px;
@@ -10,7 +10,7 @@
   }
 
   &--second {
-    padding: 42px 0 65px;
+    padding: 25px 0 65px;
 
     @media (max-width: $xl) {
       padding: 50px 0 50px;
@@ -311,6 +311,8 @@
     margin-bottom: 0;
     padding-top: 5px;
 
+    color: $c-secondary;
+
     &:before {
       width: 32px;
 
@@ -331,4 +333,8 @@
   &--dark {
     color: $c-main;
   }
+}
+
+.content__btn:active .content__btn-text--dark {
+  color: $c-white;
 }

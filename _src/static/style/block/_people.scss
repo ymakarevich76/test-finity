@@ -2,7 +2,7 @@
   position: relative;
 
   padding-top: 129px;
-  padding-bottom: 165px;
+  padding-bottom: 140px;
   overflow: hidden;
 
   background-color: $c-grey-light;
@@ -40,7 +40,7 @@
 .people__item {
   width: calc((100% / 3) - 30px);
   margin: 0 15px 34px;
-  padding: 5px 17px;
+  padding: 4px 15px;
 
   background-color: $c-white;
   border: 1px solid $c-grey;
