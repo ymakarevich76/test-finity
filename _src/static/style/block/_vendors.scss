@@ -1,5 +1,9 @@
 .vendors {
   padding: 55px 0;
+
+  @media (max-width: $md) {
+    padding-bottom: 25px;
+  }
 }
 
 .vendors__list {

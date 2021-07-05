@@ -7,7 +7,7 @@
   padding-top: 15px;
 
   @media (max-width: $md) {
-    display: none;
+    padding-top: 20px;
   }
 }
 
@@ -22,4 +22,58 @@
 .header__logo {
   position: relative;
   top: 20px;
+
+  @media (max-width: $md) {
+    top: 0;
+  }
+}
+
+.header__nav {
+  @media (max-width: $md) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+
+    display: none;
+
+    opacity: 0;
+
+    &--active {
+      display: block;
+
+      animation: .2s linear .1s forwards fadeIn;
+    }
+  }
+}
+
+.header__hamburger {
+  display: none;
+
+  @media (max-width: $md) {
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    background: url(../img/icon/hamburger.svg) center center no-repeat;
+  }
+}
+
+.header__btn-close {
+  display: none;
+
+  @media (max-width: $md) {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    z-index: 100;
+
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    background: url(../img/icon/close.svg) center center no-repeat;
+  }
 }

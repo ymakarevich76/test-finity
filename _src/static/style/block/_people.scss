@@ -7,10 +7,14 @@
 
   background-color: $c-grey-light;
 
+  @media (max-width: $md) {
+    padding: 70px 0 50px;
+  }
+
   &::after {
     content: "";
     position: absolute;
-    top: -40%;
+    top: -380px;
     right: -195px;
 
     display: block;
@@ -26,14 +30,11 @@
   display: flex;
   flex-wrap: wrap;
 
-//   justify-content: space-between;
-  //   justify-content: center;
-  //   align-items: center;
   margin: -10px;
   padding-top: 85px;
 
-  @media (max-width: $xl) {
-    //  justify-content: center;
+  @media (max-width: $md) {
+   padding-top: 50px;
   }
 }
 

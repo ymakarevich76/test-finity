@@ -2,6 +2,8 @@ const swiper = new Swiper('.swiper-container', {
    loop: true,
    spaceBetween: 20,
    slidesPerView: 'auto',
+   // autoHeight: true,
+   // height: ,
 
    freeMode: true,
 

@@ -3,6 +3,10 @@
   padding-bottom: 118px;
 
   border-bottom: 1px solid $c-grey;
+
+  @media (max-width: $md) {
+    padding-bottom: 50px;
+  }
 }
 
 .features__title {
@@ -125,7 +129,13 @@
       background-image: url(../img/icon/node.svg);
     }
   }
+
+  &.swiper-slide {
+    height: auto;
+  }
 }
+
+
 
 .features__item-title {
   font-size: 21px;

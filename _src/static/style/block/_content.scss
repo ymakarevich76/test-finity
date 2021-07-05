@@ -1,19 +1,27 @@
 .content {
-  // overflow-x: hidden;
+  overflow: hidden;
 
   &--first {
-    padding: 260px 0 105px;
+    padding: 245px 0 105px;
 
     @media (max-width: $xl) {
       padding: 100px 0 100px;
     }
+
+    @media (max-width: $md) {
+      padding: 50px 0 50px;
+    }
   }
 
   &--second {
-    padding: 25px 0 65px;
+    padding: 40px 0 65px;
 
     @media (max-width: $xl) {
       padding: 50px 0 50px;
+    }
+
+    @media (max-width: $xl) {
+      padding: 0;
     }
   }
 }
