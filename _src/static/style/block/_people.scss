@@ -23,18 +23,37 @@
 
     background: url("../img/ui/circle.png") center center no-repeat;
     background-size: 100%;
+
+    @media (max-width: $xl) {
+      top: -300px;
+      right: -160px;
+
+      width: 400px;
+      height: 400px;
+    }
+
+    @media (max-width: $md) {
+      top: -150px;
+      right: -90px;
+
+      width: 200px;
+      height: 250px;
+    }
+
+    @media (max-width: $sm) {
+      display: none;
+    }
   }
 }
 
 .people__list {
   display: flex;
   flex-wrap: wrap;
-
   margin: -10px;
   padding-top: 85px;
 
   @media (max-width: $md) {
-   padding-top: 50px;
+    padding-top: 50px;
   }
 }
 

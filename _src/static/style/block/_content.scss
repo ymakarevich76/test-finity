@@ -60,6 +60,14 @@
   }
 }
 
+.content__text br {
+  display: block;
+
+  @media (max-width: $xs) {
+    display: none;
+  }
+}
+
 
 .content__list {
   padding-top: 50px;
